@@ -6,6 +6,7 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
 - Consistent spacing around the button, mainly involving pinned tabs/the divider when regular tabs are open (this took way too long)
+- Works regardless of whether you have pinned tabs in your workspace or not
 - Support for both [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula) theme and default Zen; Nebula is the only theme that I have tested on, can't say whether it will work as intended for any other theme so test/use at your own discretion
 
 ### Installation
@@ -13,4 +14,8 @@ Download the ``userChrome.css`` file above, copy it to your chrome folder, and r
 
 Alternatively, for those using Sine, simply copy the URL to this repository and paste it into the box directly under the marketplace!
 
+### Additional information
+
 Since this is a relatively simple mod (and one that I just vibecoded for fun) it means that it should ideally/hopefully work as intended on all future versions of Zen, assuming that there are no drastic changes made to the browser's code. It also means that if you don't like any changes or you want to modify it further you can easily do that either on your own or by using AI.
+
+There is a small compatibility issue when using [SuperPins](https://github.com/CosmoCreeper/Zen-Themes/tree/main/SuperPins) particularly with the setting that makes pinned tabs look like grids - while it is functional the spacing does not look as intended. The same thing applies for when the New Tab button is set to be at the bottom (this can be altered in 'Look and Feel' menu of Zen settings) so it is recommended to have it at the top.
