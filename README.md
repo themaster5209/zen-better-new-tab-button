@@ -17,3 +17,5 @@ Alternatively, for those using Sine, simply copy the URL to this repository and 
 ### Additional information
 
 Since this is a relatively simple mod (and one that I just vibecoded for fun) it means that it should ideally/hopefully work as intended on all future versions of Zen, assuming that there are no drastic changes made to the browser's code. It also means that if you don't like any changes or you want to modify it further you can easily do that either on your own or by using AI.
+
+Shout-out to [CosmoCreeper](https://github.com/CosmoCreeper) for helping with development! 
