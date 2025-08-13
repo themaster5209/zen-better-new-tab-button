@@ -1,0 +1,24 @@
+/* Hide the New Tab text */
+#tabs-newtab-button.toolbarbutton-1 .toolbarbutton-text,
+#tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon + .toolbarbutton-text {
+    display: none !important;
+}
+
+.workspace-arrowscrollbox:has(.zen-workspace-pinned-tabs-section:not([hide-separator])) {
+    /* Spacing tweaks for New Tab button and pinned tabs, thanks to CosmoCreeper */
+    #tabs-newtab-button.toolbarbutton-1 {
+        position: relative !important;
+        top: -3px !important;
+        margin-top: 9px !important;
+    }
+
+    /* Spacing tweak for New Tab button and the divider, thanks to CosmoCreeper */
+    .pinned-tabs-container-separator {
+        margin-bottom: 1px !important;
+        margin-top: 5px !important;
+    }
+}
+
+.zen-workspace-pinned-tabs-section[hide-separator] .pinned-tabs-container-separator {
+    margin-top: 3px !important;
+}
