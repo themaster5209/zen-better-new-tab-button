@@ -1,7 +1,7 @@
 # Better New Tab button
 This is a mod for Zen that I made purely off vibecoding in my free time that changes some aspects of this UI - thought it'd be cool to put it out there for other users to install.
 
-<img width="672" height="420" alt="image" src="https://github.com/user-attachments/assets/64c7a0a6-840d-4de5-840f-2474081d4569" />
+<img width="576" height="381" alt="image" src="https://github.com/user-attachments/assets/d4860b71-6c62-4330-950b-c6fa75604ac2" />
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
