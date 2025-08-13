@@ -5,7 +5,7 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
-- Consistent spacing around the button, mainly involving pinned tabs/the divider when regular tabs are open (this took way too long)
+- Consistent spacing around the button, mainly involving any pinned tabs above it/the divider when regular tabs are open (this took way too long)
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Support for both [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula) theme and default Zen; Nebula on macOS is the only theme that I have tested on, can't say whether it will work as intended for any other theme so test/use at your own discretion
 
