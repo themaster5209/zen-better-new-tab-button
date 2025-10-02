@@ -1,8 +1,0 @@
-[
-  {
-    "type": "string",
-    "property": "btrnewtab.border-radius",
-    "defaultValue": "",
-    "label": "Adjusts how round the new tab button is (default 8px)"
-  }
-]
