@@ -5,18 +5,20 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
-- Consistent spacing around the button, mainly involving any pinned tabs above it/the divider when regular tabs are open
+- Consistent spacing around the button, involving any pinned tabs above it and the divider when regular tabs are open
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
+- Looks just as good with any UI font and in both light/dark modes
 
 ### Installation
-Download the ``userChrome.css`` file above or from the latest release in Releases menu, copy it to your chrome folder, and restart the browser. If you don't have a chrome folder, follow the steps in [Zen's documentation](https://docs.zen-browser.app/guides/live-editing) to enable userChrome customisation.
+Using Sine is recommended as of v1.0.3 as there is now a preference. Simply copy the URL to this repository and paste it into the box directly under the marketplace! Alternatively, you can search for this mod's name in Sine's marketplace search.
 
-Alternatively, for those using Sine, simply copy the URL to this repository and paste it into the box directly under the marketplace!
+For those who want a manual install and wouldn't mind going without the preference, download the ``userChrome.css`` file above or from the latest release in Releases menu, copy it to your chrome folder, and restart the browser. If you don't have a chrome folder, follow the steps in [Zen's documentation](https://docs.zen-browser.app/guides/live-editing) to enable userChrome customisation.
 
 ### Additional information
 
-- This is a mod that should ideally/hopefully work on all future versions of Zen, unless there are any breaking changes made to the browser's code. If you don't like any changes or you want to modify it further you can easily do that either on your own or by using AI.
-- The mod works properly on Zen without any themes (the default skin). [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only "third-party" theme that I have tested on as it is the theme that I use; can't say whether it will work as intended for any other theme so test/use at your own discretion.
-- I also recommend having the New Tab button placed at the top of the list (can be changed in 'about:preferences#zenLooks') to maintain the correct spacing that the mod offers.
+- Should work on all future versions of Zen unless there are any breaking changes to the browser's code
+- If you don't like any aspect of this mod, feel free to customise it either on your own or with AI
+- [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only "third-party" theme that I have tested on, try/use with other themes at your own discretion
+- Recommended to have New Tab button placed at the top (can be changed in 'about:preferences#zenLooks') to maintain the correct spacing that the mod offers
 
 Shout-out to [CosmoCreeper](https://github.com/CosmoCreeper) for helping with development!
