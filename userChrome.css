@@ -79,7 +79,6 @@
 
 /* 90º Spin animation for + icon (if checkbox is enabled) */
 @media (-moz-pref("btrnewtab.plusanim")) {
-    #tabs-newtab-button.toolbarbutton-1:active .toolbarbutton-icon {
-        transform: rotate(90deg) !important;
-    }
+    #tabs-newtab-button.toolbarbutton-1[active] .toolbarbutton-icon {
+    transform: rotate(90deg) !important;
 }
