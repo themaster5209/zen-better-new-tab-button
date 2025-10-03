@@ -71,8 +71,14 @@
   overflow: hidden !important;
 }
 
+/* Setup for + icon animations to work */
+:root {
+    --btrnewtab-plusanim: none; /* default */
+    --btrnewtab-border-radius: 10px; /* example, can be overridden */
+}
+
 /* No animation for + icon */
-#tabs-newtab-button.toolbarbutton-1.plusanim-none:active .toolbarbutton-icon {
+#tabs-newtab-button.toolbarbutton-1:active[data-plusanim="none"] .toolbarbutton-icon {
     transform: rotate(0deg) !important;
 }
 
@@ -80,14 +86,16 @@
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon {
     transition: transform 0.15s ease-in-out !important;
     transform: rotate(0deg);
+    display: inline-block;
+    transform-origin: center center;
 }
 
-/* 90º Spin animation for + icon */
-#tabs-newtab-button.toolbarbutton-1.plusanim-spin:active .toolbarbutton-icon {
+/* 90° Spin animation for + icon */
+#tabs-newtab-button.toolbarbutton-1:active[data-plusanim="spin"] .toolbarbutton-icon {
     transform: rotate(90deg) !important;
 }
 
 /* Wobble animation for + icon */
-#tabs-newtab-button.toolbarbutton-1.plusanim-wobble:active .toolbarbutton-icon {
-    transform: rotate(-15deg) translateX(-2px) !important;
+#tabs-newtab-button.toolbarbutton-1:active[data-plusanim="wobble"] .toolbarbutton-icon {
+    transform: rotate(-15deg) translateX(calc(var(--btrnewtab-border-radius) / 5)) !important;
 }
