@@ -1,0 +1,19 @@
+[
+ {
+  "type": "checkbox",
+  "property": "btrnewtab.plusanim",
+  "label": "Animate the plus icon on click"
+},
+  {
+    "type": "string",
+    "property": "btrnewtab.border-radius",
+    "defaultValue": "8px",
+    "label": "Customise how round the new tab button is (default 8px)"
+  },
+   {
+    "type": "string",
+    "property": "btrtabs.border-radius",
+    "defaultValue": "8px",
+    "label": "Customise how round tabs are (default 8px)"
+  }
+]
