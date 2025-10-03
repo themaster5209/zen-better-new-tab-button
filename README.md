@@ -5,7 +5,7 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
-- Clean animation with the button bounce and the plus icon rotating
+- Clean animations with the button's bounce and the plus icon rotating on click
 - Consistent spacing in regards to pinned tabs/the divider above it
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Looks just as good with any UI font and in both light/dark mode
@@ -19,7 +19,7 @@ For those who want a manual install and wouldn't mind going without the preferen
 
 - Should work on all future versions of Zen unless there are any breaking changes to the browser's code
 - If you don't like any aspect of this mod, feel free to customise it either on your own or with AI
-- [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only "third-party" theme that I have tested on, try/use with other themes at your own discretion
+- [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only theme that I have tested on, try/use with other themes at your own discretion
 - Recommended to have New Tab button placed at the top (can be changed in 'about:preferences#zenLooks') to maintain the correct spacing that the mod offers
 
 Shout-out to [CosmoCreeper](https://github.com/CosmoCreeper) for helping with development!
