@@ -5,14 +5,15 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
-- Consistent spacing around the button, involving any pinned tabs above it and the divider when regular tabs are open
+- Clean animation with the button bounce and the plus icon rotating
+- Consistent spacing in regards to pinned tabs/the divider above it
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Looks just as good with any UI font and in both light/dark mode
 
 ### Installation
-Using Sine is recommended as of v1.0.3 as there is now a preference. Simply copy the URL to this repository and paste it into the box directly under the marketplace! Alternatively, you can search for this mod's name in Sine's marketplace search.
+Using Sine is recommended as of v1.0.3 as there is now support for preferences. Simply copy the URL to this repository and paste it into the box directly under the marketplace! Alternatively, you can search for this mod's name in Sine's marketplace search.
 
-For those who want a manual install and wouldn't mind going without the preference, download the ``userChrome.css`` file above or from the latest release in Releases menu, copy it to your chrome folder, and restart the browser. If you don't have a chrome folder, follow the steps in [Zen's documentation](https://docs.zen-browser.app/guides/live-editing) to enable userChrome customisation.
+For those who want a manual install and wouldn't mind going without the preferences, download the ``userChrome.css`` file above or from the latest release in Releases menu, copy it to your chrome folder, and restart the browser. If you don't have a chrome folder, follow the steps in [Zen's documentation](https://docs.zen-browser.app/guides/live-editing) to enable userChrome customisation.
 
 ### Additional information
 
