@@ -6,7 +6,7 @@ This is a mod for Zen that I made purely off vibecoding in my free time that cha
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
 - Clean animations with the button's bounce and the plus icon rotating on click
-- Consistent spacing in regards to pinned tabs/the divider above it
+- Consistent spacing around the button in regards to pinned tabs/the divider above it
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Looks just as good with any UI font and in both light/dark mode
 
