@@ -74,10 +74,12 @@
 /* Base animation for + icon */
 #tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon {
     transition: transform 0.15s ease-in-out !important;
-    transform: rotate(0deg);
+    transform: translateX(0) rotate(0deg) !important;
 }
 
 /* 90º Spin animation for + icon (if checkbox is enabled) */
-#tabs-newtab-button.toolbarbutton-1[active] .toolbarbutton-icon {
-    transform: rotate(90deg) !important;
+@media (-moz-pref("btrnewtab.plusanim")) {
+    #tabs-newtab-button.toolbarbutton-1:active .toolbarbutton-icon {
+        transform: translateX(0) rotate(90deg) !important;
+    }
 }
