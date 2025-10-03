@@ -1,9 +1,11 @@
 [
- {
-  "type": "checkbox",
-  "property": "btrnewtab.plusanim",
-  "label": "Animate the plus icon on click"
-},
+  {
+    "type": "checkbox",
+    "property": "btrnewtab.plusanim",
+    "label": "Animate the plus icon on click",
+    "default": true
+  }
+],
   {
     "type": "string",
     "property": "btrnewtab.border-radius",
