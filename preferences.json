@@ -1,0 +1,27 @@
+[
+ {
+  "type": "dropdown",
+  "property": "btrnewtab.plusanims",
+  "label": "New Tab + Animation",
+  "value": "string",
+  "default": "none",
+  "placeholder": false,
+  "options": [
+    { "label": "No Animation", "value": "none" },
+    { "label": "90º Spin", "value": "spin" },
+    { "label": "Wobble", "value": "wobble" }
+  ]
+},
+  {
+    "type": "string",
+    "property": "btrnewtab.border-radius",
+    "defaultValue": "",
+    "label": "Customise how round the new tab button is (default 8px)"
+  },
+   {
+    "type": "string",
+    "property": "btrtabs.border-radius",
+    "defaultValue": "",
+    "label": "Customise how round tabs are (default 8px)"
+  }
+]
