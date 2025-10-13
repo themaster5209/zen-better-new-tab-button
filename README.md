@@ -1,11 +1,11 @@
 # Better New Tab button
-This is a mod for Zen that I made purely off vibecoding in my free time that changes some aspects of this UI - thought it'd be cool to put it out there for other users to install.
 
 ![Better New Tab button](https://github.com/user-attachments/assets/491f3bac-897c-4e9b-bc76-51f802fa8727)
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
 - Clean animations with the button's bounce and the plus icon rotating on click
+- Preferences to adjust how round the New Tab button and tabs are
 - Consistent spacing around the button in regards to pinned tabs/the divider above it
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Looks just as good with any UI font and in both light/dark mode
@@ -21,5 +21,6 @@ For those who want a manual install and wouldn't mind going without the preferen
 - If you don't like any aspect of this mod, feel free to customise it either on your own or with AI
 - [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only theme that I have tested on, try/use with other themes at your own discretion
 - Recommended to have New Tab button placed at the top (can be changed in 'about:preferences#zenLooks') to maintain the correct spacing that the mod offers
+- Border radius preference for tabs unfortunately doesn't support Essential tabs, so those will stay at Zen's default value
 
 Shout-out to [CosmoCreeper](https://github.com/CosmoCreeper) for helping with development!
