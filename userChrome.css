@@ -55,14 +55,6 @@
     padding-inline-end: 0 !important;
 }
 
-/* Preference for new tab button border radius */
-#tabs-newtab-button.toolbarbutton-1 {
-    border-radius: var(--btrnewtab-border-radius) !important;
-    margin-block: 2px !important;
-    margin-inline: 4px !important;
-    overflow: hidden !important;
-}
-
 /* Preference for tabs border radius */
 .tabbrowser-tab .tab-background {
     border-radius: var(--btrtabs-border-radius) !important;
@@ -70,7 +62,11 @@
     margin-inline: 4px !important;
     overflow: hidden !important;
 }
-/* Reset margins for Essential tabs specifically */
+/* Match border radius for inner content of Essentials */
+.tabbrowser-tab .tab-background > * {
+    border-radius: var(--btrtabs-border-radius) !important;
+}
+/* Reset margins for Essential tabs */
 .zen-essentials-container .tabbrowser-tab .tab-background {
     margin-block: 0 !important;
     margin-inline: 0 !important;
