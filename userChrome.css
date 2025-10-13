@@ -66,7 +66,8 @@
 .zen-essentials-container .tabbrowser-tab .tab-background {
     margin-block: var(--btrtabs-border-radius) !important;
     margin-inline: var(--btrtabs-border-radius) !important;
-    padding: var(--btrtabs-border-radius) !important;
+    padding: 10px !important;
+    overflow: hidden !important;
 }
 
 /* Base animation for + icon */
