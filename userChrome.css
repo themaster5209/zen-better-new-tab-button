@@ -69,9 +69,14 @@
     overflow: hidden !important;
 }
 /* Fix for round Essential tabs */
+.zen-essentials-container .tabbrowser-tab .tab-background {
+    overflow: visible !important;
+}
 .zen-essentials-container .tabbrowser-tab .tab-content,
 .zen-essentials-container .tabbrowser-tab .tab-icon-stack {
-    border-radius: calc(var(--btrtabs-border-radius) - 2px) !important;
+    border-radius: var(--btrtabs-border-radius) !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* Base animation for + icon */
