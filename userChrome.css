@@ -66,13 +66,14 @@
 /* Preference for tabs border radius */
 .tabbrowser-tab .tab-background {
     border-radius: var(--btrtabs-border-radius) !important;
-    overflow: hidden !important;
-}
-
-/* Only apply margins to regular tabs, not Essential tabs */
-.tabbrowser-tab:not(.zen-essentials-container .tabbrowser-tab) .tab-background {
     margin-block: 2px !important;
     margin-inline: 4px !important;
+    overflow: hidden !important;
+}
+/* Reset margins for Essential tabs specifically */
+.zen-essentials-container .tabbrowser-tab .tab-background {
+    margin-block: 0 !important;
+    margin-inline: 0 !important;
 }
 
 /* Base animation for + icon */
