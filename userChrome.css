@@ -62,14 +62,10 @@
     margin-inline: 4px !important;
     overflow: hidden !important;
 }
-/* Match border radius for inner content of Essentials */
-.tabbrowser-tab .tab-background > * {
-    border-radius: var(--btrtabs-border-radius) !important;
-}
-/* Reset margins for Essential tabs */
+/* Fix for round Essential tabs */
 .zen-essentials-container .tabbrowser-tab .tab-background {
-    margin-block: 0 !important;
-    margin-inline: 0 !important;
+    margin-block: var(--btrtabs-border-radius) !important;
+    margin-inline: var(--btrtabs-border-radius) !important;
 }
 
 /* Base animation for + icon */
