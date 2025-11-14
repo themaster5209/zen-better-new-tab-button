@@ -1,0 +1,48 @@
+[
+  {
+    "type": "checkbox",
+    "property": "btrnewtab.plusanim",
+    "label": "Animate the plus icon on click",
+    "defaultValue": false
+  },
+  {
+    "type": "checkbox",
+    "property": "btrnewtab.enable-border-radius",
+    "label": "Enable custom roundness for the New Tab button",
+    "defaultValue": false
+  },
+  {
+    "type": "string",
+    "property": "btrnewtab.border-radius",
+    "defaultValue": "8px",
+    "label": "Customise how round the new tab button is",
+    "conditions": [
+      {
+        "if": {
+          "property": "btrnewtab.enable-border-radius",
+          "value": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "property": "btrtabs.enable-border-radius",
+    "label": "Enable custom roundness for tabs",
+    "defaultValue": false
+  },
+   {
+    "type": "string",
+    "property": "btrtabs.border-radius",
+    "defaultValue": "8px",
+    "label": "Customise how round tabs are",
+    "conditions": [
+      {
+        "if": {
+          "property": "btrtabs.enable-border-radius",
+          "value": true
+        }
+      }
+    ]
+  }
+]
