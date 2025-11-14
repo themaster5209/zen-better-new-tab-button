@@ -4,8 +4,8 @@
 
 ### Features
 - Removed "New Tab" text, and the plus icon is centered for a clean look
-- Clean animations with the button's bounce and the plus icon rotating on click
-- Preferences to adjust how round the New Tab button and tabs are
+- Clean animations for the button's bounce and the plus icon rotating on click
+- Preferences to adjust how round the New Tab button and tabs are (disable to return to default)
 - Consistent spacing around the button in regards to pinned tabs/the divider above it
 - Works as intended regardless of whether you have pinned tabs in your workspace or not
 - Looks just as good with any UI font and in both light/dark mode
