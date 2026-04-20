@@ -12,7 +12,7 @@ Using Sine is the optimal way as of v1.0.3 as there is now support for preferenc
 
 ### Additional information
 - [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula/tree/main) on macOS is the only theme that I have tested on, it should be fine but use with other themes at your own discretion
-- Recommended to have New Tab button placed at the top (can be changed in 'about:preferences#zenLooks')
+- Recommended to have New Tab button placed at the top (can be changed in `about:preferences#zenLooks`)
 - Border radius preference for tabs unfortunately doesn't support Essential tabs, so those will stay at Zen's default value
 
 Shout-out to [CosmoCreeper](https://github.com/CosmoCreeper) for helping with development!
