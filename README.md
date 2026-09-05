@@ -1,3 +1,5 @@
+**Notice**: As of Zen 1.22b, the border radius preferences are not fully functional anymore. They work up to 20px but no change is seen when you increase beyond 20px, and the 20px setting isn't actually even 20px. Other than that the mod works fine, but I will try to fix this if/when possible.
+
 # Better New Tab button
 
 ![Better New Tab button](https://github.com/user-attachments/assets/491f3bac-897c-4e9b-bc76-51f802fa8727)
