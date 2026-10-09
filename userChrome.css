@@ -65,7 +65,7 @@
 }
 
 /* Preference for tabs border radius - exclude Essential tabs */
-.tabbrowser-tab:not(.zen-essentials-container .tabbrowser-tab) .tab-background, .tab-close-button.close-icon {
+.tabbrowser-tab:not(.zen-essentials-container .tabbrowser-tab) .tab-background, .tab-close-button.close-icon, .tab-reset-button.reset-icon {
     @media (-moz-pref("btrtabs.enable-border-radius")) {
       border-radius: var(--btrtabs-border-radius) !important;
       corner-shape: round !important;
